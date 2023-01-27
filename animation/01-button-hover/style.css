@@ -16,4 +16,14 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition-property: zoom;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.25s;
+}
+
+button:hover {
+  background-color: black;
+  cursor: pointer;
+  zoom: 1.3;
 }
